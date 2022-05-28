@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cities Table</title>
+  </head>
+  <body>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table -->
+    <h1>Cities</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Area</th>
+          <th>Population</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Shanghai</td>
+          <td>East Asia</td>
+          <td>210</td>
+        </tr>
+        <tr>
+          <td>Vancouver</td>
+          <td>North America</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>V2</h1>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Name</th>
+          <th colspan="2">Area</th>
+          <th rowspan="2">Population</th>
+        </tr>
+        <tr>
+          <th>Asia</th>
+          <th>America</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Shanghai</td>
+          <td>East Asia</td>
+          <td>210</td>
+        </tr>
+        <tr>
+          <td>Vancouver</td>
+          <td>North America</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
